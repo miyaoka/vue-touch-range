@@ -14,32 +14,20 @@
   },
   "poi": {
     "entry": "docs/index.js",
-    "dist": "dist/docs",
+    "dist": "dist",
     "homepage": "./"
   },
   "bili": {
-    "format": [
-      "cjs",
-      "umd"
-    ],
+    "format": ["cjs", "umd"],
     "name": "vue-touch-slider",
-    "plugins": [
-      "vue"
-    ]
+    "plugins": ["vue"]
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miyaoka/vue-touch-slider.git"
   },
-  "keywords": [
-    "vue",
-    "touch",
-    "range",
-    "slider"
-  ],
+  "keywords": ["vue", "touch", "range", "slider"],
   "author": "Masaya Kazama <miyan@t-p.jp>",
   "license": "MIT",
   "bugs": {
