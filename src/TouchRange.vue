@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'TouchSlider',
+  name: 'TouchRange',
   props: {
     value: { type: Number, default: 0 },
     min: { type: Number, default: 0 },

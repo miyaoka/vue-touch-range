@@ -6,7 +6,7 @@
 
     <header>
       <h1>
-        Vue Touch slider
+        Vue touch range
       </h1>
       <p>
         Touch extension of input-range element
@@ -16,8 +16,8 @@
     <section>
       <h2>Example</h2>
       <div>
-        <h3>Touch slider</h3>
-        <TouchSlider
+        <h3>touch range</h3>
+        <TouchRange
           :min="min"
           :max="max"
           :disabled="disabled"
@@ -93,15 +93,15 @@
 </template>
 
 <script>
-import TouchSlider from '../src/TouchSlider'
+import TouchRange from '../src/TouchRange'
 
 export default {
   components: {
-    TouchSlider
+    TouchRange
   },
   data() {
     return {
-      code: `<TouchSlider
+      code: `<TouchRange
   :min="min"
   :max="max"
   :step="step"

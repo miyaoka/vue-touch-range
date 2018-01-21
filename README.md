@@ -1,4 +1,5 @@
-# vue-touch-slider [![CircleCI](https://circleci.com/gh/miyaoka/vue-touch-slider.svg?style=svg)](https://circleci.com/gh/miyaoka/vue-touch-slider)
+# vue-touch-range [![CircleCI](https://circleci.com/gh/miyaoka/vue-touch-range.svg?style=svg)](https://circleci.com/gh/miyaoka/vue-touch-range)
+
 Touch extension of input-range element
 
-Demo: https://miyaoka.github.io/vue-touch-slider/
+Demo: https://miyaoka.github.io/vue-touch-range/

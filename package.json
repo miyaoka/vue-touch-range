@@ -1,8 +1,8 @@
 {
-  "name": "vue-touch-slider",
+  "name": "vue-touch-range",
   "version": "1.0.0",
   "description": "Touch extension of input-range element",
-  "main": "src/index.js",
+  "main": "dist/vue-touch-range.cjs.js",
   "scripts": {
     "dev": "poi",
     "build": "npm run rimraf && bili",
@@ -19,21 +19,21 @@
   },
   "bili": {
     "format": ["cjs", "umd"],
-    "name": "vue-touch-slider",
+    "name": "vue-touch-range",
     "plugins": ["vue"]
   },
   "files": ["dist"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyaoka/vue-touch-slider.git"
+    "url": "git+https://github.com/miyaoka/vue-touch-range.git"
   },
   "keywords": ["vue", "touch", "range", "slider"],
   "author": "Masaya Kazama <miyan@t-p.jp>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miyaoka/vue-touch-slider/issues"
+    "url": "https://github.com/miyaoka/vue-touch-range/issues"
   },
-  "homepage": "https://github.com/miyaoka/vue-touch-slider#readme",
+  "homepage": "https://github.com/miyaoka/vue-touch-range#readme",
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.10",
     "bili": "^1.6.5",

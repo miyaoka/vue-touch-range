@@ -1,2 +1,2 @@
-import TouchSlider from './TouchSlider.vue'
-export default TouchSlider
+import TouchRange from './TouchRange.vue'
+export default TouchRange

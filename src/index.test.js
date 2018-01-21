@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import TouchSlider from './'
+import TouchRange from './'
 
 describe('Component', () => {
   test('it works', () => {
-    const wrapper = mount(TouchSlider)
+    const wrapper = mount(TouchRange)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 })
