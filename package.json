@@ -10,6 +10,7 @@
     "pre-prod": "npm run test && npm run build",
     "rimraf": "rimraf dist",
     "lint": "eslint --ext .js,.vue src docs",
+    "publish": "npm run build && npm publish --access=public",
     "test": "npm run lint && tyu"
   },
   "poi": {
