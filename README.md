@@ -1,6 +1,8 @@
-# vue-touch-range [![CircleCI](https://circleci.com/gh/miyaoka/vue-touch-range.svg?style=svg)](https://circleci.com/gh/miyaoka/vue-touch-range)
+# vue-touch-range
 
-Touch extension of input-range element
+[![NPM version](https://img.shields.io/npm/v/@miyaoka/vue-touch-range.svg?style=flat)](https://npmjs.com/package/@miyaoka/vue-touch-range) [![NPM downloads](https://img.shields.io/npm/dm/@miyaoka/vue-touch-range.svg?style=flat)](https://npmjs.com/package/@miyaoka/vue-touch-range) [![CircleCI](https://circleci.com/gh/miyaoka/vue-touch-range.svg?style=svg)](https://circleci.com/gh/miyaoka/vue-touch-range)
+
+> Touch extension of input-range element
 
 Demo: https://miyaoka.github.io/vue-touch-range/
 
