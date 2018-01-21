@@ -1,6 +1,6 @@
 {
   "name": "@miyaoka/vue-touch-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Touch extension of input-range element",
   "main": "dist/vue-touch-range.cjs.js",
   "scripts": {
