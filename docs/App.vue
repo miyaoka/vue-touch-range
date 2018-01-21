@@ -26,7 +26,7 @@
         />
       </div>
       <div>
-        <h3>Vanilla input-range (Not support touch)</h3>
+        <h3>Vanilla input-range (Not support touch on track)</h3>
         <input
           type="range"
           :min="min"
