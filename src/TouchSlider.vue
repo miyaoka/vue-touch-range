@@ -35,7 +35,6 @@ export default {
       e.preventDefault()
       const cw = e.target.clientWidth
       const rate = Math.max(0, Math.min(cw, e.touches[0].pageX - e.target.offsetLeft)) / cw
-      console.log(e.target.offsetLeft, e.touches[0].pageX, e.target.offsetLeft + cw, rate)
       this.emit(rate * this.range + this.min)
     }
   }
