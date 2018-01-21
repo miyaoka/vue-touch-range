@@ -16,38 +16,50 @@
     <section>
       <h2>Example</h2>
       <div>
-        <div class="slider-container">
-          <div>
-            <input
-              type="number"
-              v-model="min"
-            >
-          </div>
-          <TouchSlider
-            :min="min"
-            :max="max"
-            :disabled="disabled"
-            v-model="value"
-            class="slider"
-          />
-          <div>
-            <input
-              type="number"
-              v-model="max"
-            >
-          </div>
-        </div>
+        <h3>Touch slider</h3>
+        <TouchSlider
+          :min="min"
+          :max="max"
+          :disabled="disabled"
+          v-model="value"
+          class="slider"
+        />
+      </div>
+      <div>
+        <h3>Vanilla input-range (Not support touch)</h3>
+        <input
+          type="range"
+          :min="min"
+          :max="max"
+          :disabled="disabled"
+          v-model.number="value"
+          class="slider"
+        >
+      </div>
 
+      <div>
         <div>
-          <p>
-            disabled:<input
-              type="checkbox"
-              v-model="disabled"
-            >
-          </p>
-          <p>
-            Value: {{ value.toFixed(1) }}
-          </p>
+          min:
+          <input
+            type="number"
+            v-model="min"
+          >
+        </div>
+        <div>
+          max:
+          <input
+            type="number"
+            v-model="max"
+          >
+        </div>
+        <div>
+          disabled:<input
+            type="checkbox"
+            v-model="disabled"
+          >
+        </div>
+        <div>
+          Value: {{ value.toFixed(1) }}
         </div>
       </div>
     </section>
@@ -110,14 +122,8 @@ export default {
 html {
   margin: 1rem;
 }
-.slider-container {
-  display: grid;
-  grid-template-columns: 4rem 1fr 4rem;
-  grid-gap: 1rem;
-}
-.slider-container input[type='number'] {
+.slider {
   width: 100%;
-  text-align: right;
 }
 pre {
   padding: 1rem;
