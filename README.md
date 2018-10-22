@@ -16,7 +16,7 @@ npm i @miyaoka/vue-touch-range
 
 ### in script
 ```js
-import TouchRange from '@miyaoka/vue-tuoch-range'
+import TouchRange from '@miyaoka/vue-touch-range'
 
 export default {
   components: {
